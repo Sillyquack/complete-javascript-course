@@ -131,6 +131,17 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 GOOD LUCK 😀
 */
 
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIJohn, BMIMark)
+
+
 // const massMark = 78;
 // const heightMark = 1.69;
 // const massJohn = 92;
